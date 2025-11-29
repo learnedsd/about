@@ -1,28 +1,12 @@
 # _config.yml
-
-# --- 网站基本信息 ---
-title: "Data Insights & Economics" # 网站标题，突显你的专业领域
-description: "Portfolio of a Business Analyst specializing in Python, Tableau, and Economic Modeling." # 网站描述，SEO友好
-logo: "/assets/images/profile.png" # 后面你需要上传一张头像到 assets/images 文件夹
-show_downloads: false # 不显示下载ZIP按钮，保持页面简洁
-
-# --- 主题设置 ---
+title: "Data Insights & Economics"
+description: "Portfolio of a Business Analyst specializing in Python, Tableau, and Economic Modeling."
 theme: jekyll-theme-minimal
-# 这里的样式可以根据喜好更换，'minimal' 是最不容易出错的起步选择
 
-# --- 导航栏设置 (可选，部分主题支持) ---
-# 如果主题支持顶部导航，这将是你的菜单
-header_pages:
-  - index.md
-  - projects.md
-  - about.md
+# ⚠️ 关键修复：告诉 Jekyll 你的仓库名是什么
+baseurl: "/about"
+url: "https://learnedsd.github.io"
 
-# --- 社交链接 (页脚展示) ---
-# 请将 # 替换为你的真实链接，注意不要在此处填写真实个人信息
-github_username:  [Your-GitHub-ID]
-linkedin_username: [Your-LinkedIn-ID]
-# email: [Your-Email] # 如果不想公开邮箱，可以注释掉这一行
-
-# --- 插件 ---
+# 其它设置
 plugins:
   - jekyll-seo-tag
